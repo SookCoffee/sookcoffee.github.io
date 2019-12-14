@@ -1,0 +1,47 @@
+body {
+  background-image: url('images/bamboo1.jpg');
+  background-position: fixed;
+  background-size: cover;
+  margin: 0;
+}
+
+.overlay {
+  background-color: rgba(255,255,255,0.8);
+  min-height: 100%;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-top: 30px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.navbar a img {
+  max-width: 10%;
+  max-height: 100px;
+}
+
+.navbar a img.logo {
+  max-width: 30%;
+}
+
+.overlay {
+  padding: 25px;
+  font-size: 0;
+}
+
+.overlay div {
+  display: inline-block;
+  width: 50%;
+}
+
+.overlay div.description {
+  text-align: center;
+  padding: 40px;
+}
+
+.overlay h1 {
+  margin: 0;
+  font-size: 24px;
+}
