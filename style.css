@@ -1,47 +1,54 @@
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto { padding-right: 0; padding-left: 0; }
+.row { margin: 0; }
+
 body {
   background-image: url('images/bamboo1.jpg');
   background-position: fixed;
   background-size: cover;
-  margin: 0;
-}
-
-.overlay {
-  background-color: rgba(255,255,255,0.8);
-  min-height: 100%;
-  margin-left: 45px;
-  margin-right: 45px;
-  margin-top: 30px;
+  margin: calc(2.5% + 100px) 0 calc(2.5%);
 }
 
 img {
   max-width: 100%;
 }
 
-.navbar a img {
-  max-width: 10%;
+nav.navbar {
+  padding: 0;
+  border-bottom: 2px solid black;
+  background-image: url('images/bamboo1.jpg');
+}
+nav a.navbar-brand {
+  padding: 0;
+}
+
+nav img {
   max-height: 100px;
 }
 
-.navbar a img.logo {
-  max-width: 30%;
+nav ul li {
+  padding: 0 30px;
 }
 
-.overlay {
-  padding: 25px;
-  font-size: 0;
+nav ul li a {
+  color: white !important;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 1.25em;
+  padding: 0 !important;
 }
 
-.overlay div {
-  display: inline-block;
-  width: 50%;
+div.overlay {
+  max-width: 95%;
+  margin: auto;
+  padding: 1em;
+  background-color: rgba(255,255,255,0.75);
 }
 
-.overlay div.description {
+div.description {
+  font-size: 2em;
   text-align: center;
-  padding: 40px;
+  padding: 2.5em;
 }
 
-.overlay h1 {
-  margin: 0;
-  font-size: 24px;
+div.description p {
+  margin-bottom: 0;
 }
