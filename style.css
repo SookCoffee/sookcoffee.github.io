@@ -5,6 +5,7 @@ body {
   background-image: url('images/bamboo1.jpg');
   background-position: fixed;
   background-size: cover;
+  background-attachment: fixed;
   margin: calc(2.5% + 100px) 0 calc(2.5%);
 }
 
@@ -49,6 +50,92 @@ div.description {
   padding: 2.5em;
 }
 
+div.home {
+  text-align: center;
+  padding: 1.5em;
+}
+
+div.home h1 {
+  margin-bottom: 1em;
+}
+
+div.home h4 {
+  margin-bottom: 0.75em;
+}
+
+div.home p {
+  font-size: 1.5em;
+  margin-top: 3em;
+  line-height: 1.8em;
+}
+
+div.bio {
+  font-size: 1.25em;
+  text-align: justify;
+  padding: 1.5em;
+}
+
+div.bio h4 {
+  text-align: center;
+}
+
+div.attractions {
+  text-align: center;
+}
+
+div.attraction-images img {
+  padding: 10px;
+}
+
 div.description p {
   margin-bottom: 0;
+}
+
+div.menu-container {
+  margin-top: 1em;
+}
+
+div.menu-container div {
+  padding: 5px;
+}
+
+div.menu-container.top {
+  margin-top: 0;
+}
+
+div.menu-container.top div {
+  text-align: center;
+}
+
+div.merch {
+  color: #6b5d5c;
+  font-family: cursive;
+}
+
+div.merch img {
+  padding: 5px;
+}
+
+div.testimonials {
+  margin-top: 1em;
+  position: relative;
+}
+
+div.row.farm img {
+  padding: 5px;
+}
+
+#background,
+#text {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#text {
+  z-index: 5;
+  background-color: rgba(255,255,255,0.1);
+  text-align: center;
+  padding-top: 50px;
 }

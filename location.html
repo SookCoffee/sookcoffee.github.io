@@ -1,20 +1,78 @@
 <html>
 	<head>
 		<title>Sook Coffee</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet">
 		<link rel="shortcut icon" type="image/png" href="images/favicon2.png"/>
 	</head>
 	<body>
-		<div class="navbar">
-			<a href="index.html"> <img src="images/logo.png" class="logo"></a>
-				<a href="about-the-owner.html">About the Owner</a>
-					<a href="menu.html">Menu</a>
-						<a href="location.html">Location</a>
-							<a href="eco.html">Eco Friendly</a>
-								<a href="merch.html">Coffee Soap</a>
-		</div>
-		<h1>Welcome To Sook Coffee</h1>
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+		  <a class="navbar-brand" href="/">
+				<img src="images/logo.png" class="logo">
+			</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="about-the-owner.html"><img src="images/about-the-owner.png"></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="menu.html"><img src="images/menu.png"></a>
+		      </li>
+					<li class="nav-item">
+		        <a class="nav-link" href="location.html"><img src="images/location.png"></a>
+		      </li>
+					<!-- <li class="nav-item">
+		        <a class="nav-link" href="eco.html">Eco-Friendly</a>
+		      </li> -->
+					<li class="nav-item">
+		        <a class="nav-link" href="merch.html"><img src="images/coffee-soap.png"></a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
 		<div class="overlay">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3786.337787521348!2d97.94010891489758!3d18.377471478331387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30db31688bf77c01%3A0xb47d92a065758977!2sSook%20Coffee%20And%20Farm%20Stay%20%40maelanoi!5e0!3m2!1sen!2sth!4v1586667599214!5m2!1sen!2sth" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			<div class="row">
+				<div class="col-sm-12">
+					<img src="images/shop-front.jpg">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 description">
+					<h3>Located on the Mae Hong Son Loop, close to...</h3>
+				</div>
+			</div>
+			<div class="row attractions">
+				<div class="col-sm-4">
+					<h5>Salawin National Park (35 km)</h5>
+				</div>
+				<div class="col-sm-4">
+					<h5>Namtok Mae Surin National Park (102 km)</h5>
+				</div>
+				<div class="col-sm-4">
+					<h5>Doi Inthanon National Park (122 km)</h5>
+				</div>
+			</div>
+			<div class="row attraction-images">
+				<div class="col-sm-4">
+					<a target="_blank" href="https://goo.gl/maps/7rVxpPkKPKqLhJbN7">
+						<img src="images/salawin.jpg" />
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<a target="_blank" href="https://goo.gl/maps/uAJh7qR7eBUa8TCeA">
+						<img src="images/mae_surin.jpg" />
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<a target="_blank" href="https://goo.gl/maps/7rVxpPkKPKqLhJbN7">
+						<img src="images/doi_inthanon.jpg" />
+					</a>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>

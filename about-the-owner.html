@@ -1,20 +1,80 @@
 <html>
 	<head>
 		<title>Sook Coffee</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet">
 		<link rel="shortcut icon" type="image/png" href="images/favicon2.png"/>
 	</head>
 	<body>
-		<div class="navbar">
-			<a href="index.html"> <img src="images/logo.png" class="logo"></a>
-				<a href="about-the-owner.html">About the Owner</a>
-					<a href="menu.html">Menu</a>
-						<a href="location.html">Location</a>
-							<a href="eco.html">Eco Friendly</a>
-								<a href="merch.html">Coffee Soap</a>
-		</div>
-		<h1>Welcome To Sook Coffee</h1>
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+		  <a class="navbar-brand" href="/">
+				<img src="images/logo.png" class="logo">
+			</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="about-the-owner.html"><img src="images/about-the-owner.png"></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="menu.html"><img src="images/menu.png"></a>
+		      </li>
+					<li class="nav-item">
+		        <a class="nav-link" href="location.html"><img src="images/location.png"></a>
+		      </li>
+					<!-- <li class="nav-item">
+		        <a class="nav-link" href="eco.html">Eco-Friendly</a>
+		      </li> -->
+					<li class="nav-item">
+		        <a class="nav-link" href="merch.html"><img src="images/coffee-soap.png"></a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
 		<div class="overlay">
+			<div class="row farm">
+				<div class="col-md-6">
+					<img src="images/rose.jpg">
+				</div>
+				<div class="col-md-6 bio">
+					<h4>About Rodjana</h4>
+					<p>
+						Rodjana is an experienced barista whose life has revolved around coffee since she was young.
+						She grew up near her family’s coffee farm in Mae Hong Son. However, it wasn’t until she went to university and explored the local coffee shops, that she realized how much she loved the taste.
+					</p>
+					<p>
+						After Rodjana graduated, she helped her brother roast and sell coffee beans. She then became the head barista at a coffee shop in Chiang Mai.
+						On the side, she created her own coffee soap business and sold many products in Bangkok.
+					</p>
+					<h4>The Farm</h4>
+					<p>
+						Rodjana's family farm (pictured here) is located 1400 metres above sea level - the ideal altitude for growing arabica coffee beans.
+					</p>
+					<h4>Sook's Mission</h4>
+					<ul>
+						<li>
+							<p><b>Eco-friendly:</b> Sook uses only biodegradable materials to limit the environmental impact of the shop.</p>
+						</li>
+						<li>
+							<p><b>Ethically Sourced:</b> By only using coffee beans from her family's farm, Rose can guarantee that all ingrediants are ethically sourced.</p>
+						</li>
+						<li>
+							<p><b>Community:</b> Part of Sook's mission is to help the local community by boosting local tourism, especially travelers on the "Mae Hong Son Loop".</p>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<img src="images/farm2.jpg">
+				</div>
+				<div class="col-md-6">
+					<img src="images/farm3.jpg">
+				</div>
+				<!-- <div class="col-sm-12">
+					<img src="images/farm.jpg">
+				</div> -->
+			</div>
 		</div>
 	</body>
 </html>

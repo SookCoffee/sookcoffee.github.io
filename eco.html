@@ -1,20 +1,53 @@
 <html>
 	<head>
 		<title>Sook Coffee</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet">
 		<link rel="shortcut icon" type="image/png" href="images/favicon2.png"/>
 	</head>
 	<body>
-		<div class="navbar">
-			<a href="index.html"> <img src="images/logo.png" class="logo"></a>
-				<a href="about-the-owner.html">About the Owner</a>
-					<a href="menu.html">Menu</a>
-						<a href="location.html">Location</a>
-							<a href="eco.html">Eco Friendly</a>
-								<a href="merch.html">Coffee Soap</a>
-		</div>
-		<h1>Welcome To Sook Coffee</h1>
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+		  <a class="navbar-brand" href="/">
+				<img src="images/logo.png" class="logo">
+			</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="about-the-owner.html"><img src="images/about-the-owner.png"></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="menu.html"><img src="images/menu.png"></a>
+		      </li>
+					<li class="nav-item">
+		        <a class="nav-link" href="location.html"><img src="images/location.png"></a>
+		      </li>
+					<!-- <li class="nav-item">
+		        <a class="nav-link" href="eco.html">Eco-Friendly</a>
+		      </li> -->
+					<li class="nav-item">
+		        <a class="nav-link" href="merch.html"><img src="images/coffee-soap.png"></a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
 		<div class="overlay">
+			<div class="row">
+				<div class="col-sm-6">
+					<img src="images/overhead-coffee-beans.jpg">
+				</div>
+				<div class="col-sm-6 description">
+					<p>Praesent dignissim ipsum vel sodales interdum. Maecenas luctus enim at augue commodo, sed scelerisque nunc bibendum. Suspendisse potenti. Vestibulum ornare porttitor libero. Nam vitae vestibulum tortor. Vestibulum quis porttitor lacus, vel sollicitudin purus. Duis sit amet augue eu tortor porttitor eleifend. Proin sit amet tellus cursus, sodales eros at, sollicitudin metus. Cras vitae nulla quam. Donec dapibus a lectus vitae maximus.</p>
+				</div>
+				<div class="col-sm-6 description">
+					<p>In a mollis leo. Aenean scelerisque ultrices nisl. Aliquam iaculis viverra elit sit amet vestibulum. Sed venenatis accumsan dui ac rutrum. Vestibulum id neque quis nibh fermentum pulvinar nec id elit. Maecenas vel porta magna. Sed id rhoncus ligula, eget interdum ligula. Nulla et fermentum nisi, quis gravida nunc. Integer bibendum orci at pulvinar dignissim.</p>
+				</div>
+				<div class="col-sm-6">
+					<img src="images/overhead-coffee.jpg">
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
