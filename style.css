@@ -18,6 +18,12 @@ nav.navbar {
   border-bottom: 2px solid black;
   background-image: url('images/bamboo1.jpg');
 }
+
+nav button.navbar-toggler {
+  margin-right: 50px;
+  border-color: rgba(0,0,0,0.75) !important;
+}
+
 nav a.navbar-brand {
   padding: 0;
 }
